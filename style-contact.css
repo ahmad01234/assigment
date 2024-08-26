@@ -1,0 +1,32 @@
+.conti{
+  margin-top: 152px;
+}
+.contacts{
+  padding-top: 100px;
+  margin: 0;
+}
+.backc{
+  background: linear-gradient(
+    90deg,
+    #ffff 0%,
+    #1691f4  26%,
+    #1691f4 86%,
+    #1691f4 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.fontw{
+  font-weight: 700;
+}
+.input1{
+  width: 308px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: transparent;
+  padding-left: 11px;
+  border: 2px solid #1691f4;
+  border-image-slice: 1;
+  border-radius: 13px;
+}

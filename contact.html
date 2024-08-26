@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style-contact.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar-container">
+      <div class="container">
+        <div class="flex-container">
+          <div class="logo">
+            <a href="index.html"><img class="img-fluid image-logo" src="images/logo.png" alt="logo" /></a>
+          </div>
+          <ul id="menuList">
+            <li><a href="index.html" class="text home-text pl-2">Home</a></li>
+            <li><a href="about.html" class="text2 px-2">About us</a></li>
+            <li><a href="#" class="text5 px-2">Privacy Policy</a></li>
+            <li><a href="contact.html" class="text3 px-2">Services</a></li>
+            <li><a href="contact.html" class="text3 px-2">Contact us</a></li>
+            <li onclick="showSidebar()">
+              <a href="#" class="text4 pl-2">Free Trail</a>
+            </li>
+          </ul>
+          <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#">close</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">play</a></li>
+            <li><a href="#">king</a></li>
+            <li><a href="#">looser</a></li>
+            <li><a href="#">might</a></li>
+          </ul>
+          <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- <section> 2 </section> -->
+
+ 
+
+  <!-- ==== {{section 3 }}==== -->
+
+
+<div class="container pt-5 ">
+  <div class="row fr">
+    <div class="col-md-6">
+      <img class="img-fluid conti" src="images/contact i.png" alt="">
+    </div>
+    <div class="col-md-6  contacts">
+    <h3 class="fontw backc">Contact Us</h3>
+    <P class="pt-4 m-0"> Full Name</P>
+    <input class="input1 " type="text" name="name" placeholder="Davis samith"  >
+    <P class="pt-3 m-0"> Email</P>
+    <input class="input1 pt-1" type="text" name="name" placeholder="davissmith@gmail.com"  >
+    <P class=" pt-3 m-0">Phone Number:</P>
+    <input class="input1 m-0" type="text" name="name" placeholder="+923018671190"  >
+    <P class="pt-3 m-0">Message</P>
+    <input class="input1" type="text" name="name" placeholder="This is a message"  >
+    </div>
+  </div>
+</div>
+
+   <div class="container">
+    <div class="row  pt-3">
+      <div class="col-md-2 box-text">
+        <img class="img-fluid" src="images/logo.png" alt="">
+      </div>
+      <div class="col-md-8 pt-4">
+        <p>360 Digital Solutions is committed to creating personalized
+          marketing strategies that empower businesses to reach their
+          full potential.</p>
+      </div>
+    </div>
+  </div>
+</div>
+   </div>
+
+
+  <!-- ==== {{section 7 }}==== -->
+
+  <div class="container pb-3">
+    <div class="row">
+      <div class="col-md-4">
+     <i class="fa-regular fa-comment"></i><a href="" class="lastt"><p class="contactus ">Contact Us</p></a>   
+      </div>
+      <div class="col-md-4">
+        <i class="fa-solid fa-phone-volume"></i><a href="" class="lastt"><p class="contactus ">+923056703703</p></a>        
+      </div>
+      <div class="col-md-4">
+        <i class="fa-regular fa-envelope"></i> <a href="" class="lastt"><p class="contactus ">Info.3sixtydigitals@gmail.com</p></a>        
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-10 box-text">
+        <p>Copyright Ⓒ 2024 360 Digital Solutions. All Rights Reserved.</p>
+      </div>
+      <div class="col-md-2">
+        <a href="#"><i class="fa-brands fa-facebook licon"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram licon"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin licon"></i></a>
+      </div>
+    </div>
+  </div>
+ 
+
+
+
+
+
+
+
+
+
+
+  <!-- {{===js=====}}  -->
+
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector(".sidebar");
+      sidebar.style.display = "flex";
+    }
+
+    function hideSidebar() {
+      const sidebar = document.querySelector(".sidebar");
+      sidebar.style.display = "none";
+    }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 100
+    });
+  </script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="srcipt.js"></script>
+</body>
+
+</html>
